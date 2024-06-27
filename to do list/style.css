@@ -1,0 +1,16 @@
+center{
+    font-size: large;
+}
+.contain{
+    padding-left: 30%;
+}
+#taskadded{
+    background-color: rgb(186, 125, 244);
+}
+.inputitem{
+    display: flex;
+}
+.tasks{
+    justify-content: space-around;
+    display: flex;
+}
