@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Login Page</h2>
-    <form>
-        <div id="username">Username:</div>        
-        <input type="text" class="loadout" id="username"><br><br>
-        <div id="username">Password:</div>
-        <input type="password" class="loadout" id="password"><br><br>
-        <input type="submit" id="loginbtn" value="Login">
+    <div class="loadout">
+        <h2>Login Page</h2>
+        <form onsubmit="login(); return false;">
+            <label for="username">Username:</label>
+            <input type="text" class="userpass" id="username">
+            <label for="password">Password:</label>
+            <input type="password" class="userpass" id="password" >
+            <input type="submit" id="btn" value="Login">
         </form>
+    </div>
 </body>
 </html>
 <script src="index.js"></script>
