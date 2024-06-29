@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+}
+h1 {
+    margin-left: 50px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.timetable {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: .7px;
+    background-color: white;
+    border: 1px solid white;
+    width: 80%;
+}
+.row {
+    display: contents;
+}
+.cell {
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+}
+#time
+{
+    background-color: orange;
+}
+.header .cell {
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+.merge{
+    grid-row: span 2;
+}
+.subject:hover {
+    background-color: cyan;
+    cursor: pointer;
+}
